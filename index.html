@@ -35,21 +35,26 @@
         <p>Заинтересовались?</p>
         <p>Укажите предполагаемые даты поездки,<br>
            и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <h3>Поик гостиницы в Седоне</h3>
-        <!-- Здесь будет форма? -->
-        <p>Дата заезда:</p>
-        <div class="date-arriving">
-          <time datetime="2017-04-24">24 апреля 2017</time>
-        </div>
-        <p>Дата выезда:</p>
-        <div class="date-leaving">
-          <time datetime="2017-07-04">4 июля 2017</time>
-        </div>
-        <p>Взрослые:</p>
-        <div class="number-adult">2</div>
-        <p>Дети:</p>
-        <div class="number-kids">0</div>
-        <a href="hotels.html">Найти</a>
+        <form action="htmlacademy.ru" method="get">
+          <fieldset>
+            <legend>Поиск гостиницы в Седоне</legend>
+            <p>
+              <label for="arrival-date-field">Дата заезда:</label>
+              <input type="date" name="arrival-date" id="arrival-date-field" value="2017-04-24">
+            </p>
+            <p>
+              <label for="departure-date-field">Дата выезда:</label>
+              <input type="date" name="departure-date" id="departure-date-field" value="2017-07-04">
+            </p>
+            <p>
+              <label for="adult-number-field">Взрослые</label>
+              <input type="number" name="adult-number" id="adult-number-field" min="1" value="2">
+              <label for="child-number-field">Дети</label>
+              <input type="number" name="child-number" id="child-number-field" min="0" value="0">
+            </p>
+            <button type="submit">Найти</button>
+          </fieldset>
+        </form>
       </section>
 
       <section>
