@@ -19,9 +19,58 @@
       </nav>
     </header>
     <main>
+      <section>
+        <h2 class="visually-hidden">Фильтр выбора гостиницы</h2>
+        <form action="htmlacademy.ru" method="post">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <p>
+              <input type="checkbox" checked name="pool" id="pool-field">
+              <label for="pool-field">Бассейн</label>
+            </p>
+            <p>
+              <input type="checkbox" name="parking" id="parking-field">
+              <label for="parking-field">Парковка</label>
+            </p>
+            <p>
+              <input type="checkbox" name="wi-fi" id="wi-fi-field">
+              <label for="wi-fi-field">Wi-fi</label>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья:</legend>
+            <p>
+              <input type="checkbox" checked name="hotel" id="hotel-field">
+              <label for="hotel-field">Гостиница</label>
+            </p>
+            <p>
+              <input type="checkbox" checked name="motel" id="motel-field">
+              <label for="motel-field">Мотель</label>
+            </p>
+            <p>
+              <input type="checkbox" checked name="apartment" id="apartment-field">
+              <label for="apartment-field">Апартаменты</label>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Стоимость в сутки (Р):</legend>
+            <p>
+              От 0 <input type="range" name="price" id="price-field"> До 3000
+            </p>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
+      </section>
 
       <section>
-        <!-- Здесь будет форма выбора типа гостиницы -->
+        <h2 class="visually-hidden">Сортировка</h2>
+        <div>Найдено: 3</div>
+        <div>Сортировка:</div>
+        <ul>
+          <li>По цене</li>
+          <li>По типу</li>
+          <li>По рейтингу</li>
+        </ul>
       </section>
 
       <section>
