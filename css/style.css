@@ -70,7 +70,8 @@ a {
   text-align: center;
 }
 
-.site-navigation {
+.site-navigation,
+.site-navigation-2 {
   list-style: none;
 }
 
@@ -164,4 +165,151 @@ a {
 
 .footer-developer {
   text-align: right;
+}
+
+/*----- Сеточные стили -----*/
+
+.main-header {
+  margin-bottom: 72px;
+
+  /* Временно для сетки */
+  min-height: 72px;
+  outline: 2px solid #6ba0f0;
+}
+
+.main-navigation {
+  display: flex;
+
+  /* Временно для сетки */
+  min-height: 72px;
+}
+
+.main-header-logo {
+  /* Временно для сетки */
+  outline: 2px solid #d86bf3;
+}
+
+.site-navigation {
+  order: -1;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+
+  /* Временно для сетки */
+  min-height: 56px;
+  outline: 2px solid #96c847;
+}
+
+.site-navigation-2 {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+
+  /* Временно для сетки */
+  min-height: 56px;
+  outline: 2px solid #96c847;
+}
+
+.container {
+  /* Временно для сетки */
+  outline: 2px solid #6ba0f0;
+}
+
+.section-image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 142px;
+
+  /* Временно для сетки */
+  outline: 2px solid #96c847;
+}
+
+.slogan {
+  /* Временно для сетки */
+  outline: 2px solid #96c847;
+}
+
+.features {
+  margin-bottom: 58px;
+
+  /* Временно для сетки */
+  outline: 2px solid #96c847;
+}
+
+.search {
+  width: 570px;
+  margin: 0 auto;
+
+  /* Временно для сетки */
+  min-height: 480px;
+  outline: 2px solid #e7535e;
+}
+
+.hotels {
+  /* Временно для сетки */
+  min-height: 455px;
+  outline: 2px solid #96c847;
+}
+
+.hotels-item {
+  width: 1070px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+  /* Временно для сетки */
+  outline: 2px solid #96c847;
+}
+
+.hotels-item-rate {
+  margin-left: auto;
+}
+
+.main-footer {
+  padding-top: 35px;
+
+  /* Временно для сетки */
+  min-height: 120px;
+  outline: 2px solid #6ba0f0;
+}
+
+.footer-container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+
+  /* Временно для сетки */
+  outline: 2px solid #e7538b;
+}
+
+.footer-contact-list {
+  width: 225px;
+
+  /* Временно для сетки */
+  min-height: 50px;
+  outline: 2px solid #96c847;
+}
+
+.footer-social {
+  width: 150px;
+
+  /* Временно для сетки */
+  min-height: 50px;
+  outline: 2px solid #96c847;
+}
+
+.footer-logo {
+  width: 200px;
+
+  /* Временно для сетки */
+  min-height: 50px;
+  outline: 2px solid #96c847;
 }

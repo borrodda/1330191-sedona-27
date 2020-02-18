@@ -9,13 +9,15 @@
   </head>
   <body>
     <header class="main-header">
-      <a class="main-header-logo" href="#">
-        <img src="img/logo.svg" width="140" height="72" alt="Логотип сайта Седона">
-      </a>
       <nav class="main-navigation">
+        <a class="main-header-logo" href="#">
+          <img src="img/logo.svg" width="140" height="72" alt="Логотип сайта Седона">
+        </a>
         <ul class="site-navigation">
           <li><a class="site-navigation-link" href="#">Информация</a></li>
           <li><a class="site-navigation-link" href="#">Фото и видео</a></li>
+        </ul>
+        <ul class="site-navigation-2">
           <li><a class="site-navigation-link" href="#">Карта штата</a></li>
           <li><a class="site-navigation-link" href="hotels.html">Гостиницы</a></li>
         </ul>
@@ -24,7 +26,7 @@
     <main class="container">
 
       <h1 class="visually-hidden">Туристический сайт Седона</h1>
-      <img src="img/welcome.svg" width="459" height="353" alt="Приветствие">
+      <img class="section-image" src="img/welcome.svg" width="459" height="353" alt="Приветствие">
       <p class="section-subtitle slogan">Седона — небольшой городок в Аризоне,<br>
          заслуживающий большего!</p>
 
@@ -113,21 +115,26 @@
 
     </main>
     <footer class="main-footer">
-      <ul class="footer-contact-list">
-        <li class="section-subtitle footer-contact-item">#VISITSEDONA</li>
-        <li class="section-subtitle footer-contact-item">Тел: +7(495) 666-02-66</li>
-      </ul>
-      <div class="footer-social">
-        <ul>
-          <li><a class="button social-button" href="#">Твиттер</a></li>
-          <li><a class="button social-button" href="#">Фейсбук</a></li>
-          <li><a class="button social-button" href="#">Ютуб</a></li>
+      <div class="footer-container">
+        <ul class="footer-contact-list">
+          <li class="section-subtitle footer-contact-item">#VISITSEDONA</li>
+          <li class="section-subtitle footer-contact-item">Тел: +7(495) 666-02-66</li>
         </ul>
+        <div class="footer-social">
+          <ul>
+            <li><a class="button social-button" href="#">Твиттер</a></li>
+            <li><a class="button social-button" href="#">Фейсбук</a></li>
+            <li><a class="button social-button" href="#">Ютуб</a></li>
+          </ul>
+        </div>
+        <div class="footer-logo">
+          <p>Website by</p>
+          <a href="https://htmlacademy.ru/intensive/htmlcss">
+            <img src="img/logo-academy.svg" width="115" height="41" alt="Логотип разработчика сайта">
+          </a>
+        </div>
       </div>
-      <p>Website by</p>
-      <a href="https://htmlacademy.ru/intensive/htmlcss">
-        <img src="img/logo-academy.svg" width="115" height="41" alt="Логотип разработчика сайта">
-      </a>
+      </footer>
     </footer>
   </body>
 </html>
